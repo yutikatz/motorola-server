@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "author": "chavi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "edge": "^7.10.1",
+    "express": "^4.16.4",
+    "fs-extra": "^9.1.0",
+    "msnodesqlv8": "^2.4.6",
+    "mssql": "^8.0.2",
+    "nodemon": "^2.0.4",
+    "ws": "^7.3.1"
+  }
+}
